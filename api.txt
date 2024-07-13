@@ -1,0 +1,15 @@
+/all GET
+/ POST
+/:id PATCH
+/:id DELETE
+/:id GET
+
+
+Book {
+    id: number,
+    book_name: string,
+    book_desc: string,
+    book_author: string,
+    released_date: Date
+}
+
